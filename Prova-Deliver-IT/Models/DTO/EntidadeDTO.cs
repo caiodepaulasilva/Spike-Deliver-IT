@@ -5,7 +5,7 @@ using System.Web;
 
 namespace Prova_Deliver_IT.Models
 {
-    public class Entidade
+    public class EntidadeDTO
     {
         public int ENT_Id { get; set; }
         public string ENT_Nome { get; set; }

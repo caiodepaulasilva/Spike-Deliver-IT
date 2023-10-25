@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Integracao>
+	<ADM_Usuario>
+		<USU_Id>1</USU_Id>
+		<USU_ENT_Id>1</USU_ENT_Id>
+		<USU_Nome>Caio Silva</USU_Nome>
+		<USU_Login>caio.silva</USU_Login>
+		<USU_Senha>123</USU_Senha>
+		<USU_Bloqueado>0</USU_Bloqueado>
+		<USU_DataAcesso>25-10-2023</USU_DataAcesso>
+	</ADM_Usuario>
+
+	<ADM_Usuario>
+		<USU_Id>2</USU_Id>
+		<USU_ENT_Id>2</USU_ENT_Id>
+		<USU_Nome>Tiago Silva</USU_Nome>
+		<USU_Login>tiago.silva</USU_Login>
+		<USU_Senha>456</USU_Senha>
+		<USU_Bloqueado>0</USU_Bloqueado>
+		<USU_DataAcesso>24-10-2023</USU_DataAcesso>
+	</ADM_Usuario>
+
+	<ADM_Perfil>
+		<PER_Id>10</PER_Id>
+		<PER_SIS_Id>100</PER_SIS_Id>
+		<PER_Nome>Gestor</PER_Nome>
+	</ADM_Perfil>
+
+	<ADM_Perfil>
+		<PER_Id>20</PER_Id>
+		<PER_SIS_Id>200</PER_SIS_Id>
+		<PER_Nome>Consultor</PER_Nome>
+	</ADM_Perfil>
+
+	<ADM_UsuarioPerfil>
+		<USP_USU_Id>1</USP_USU_Id>
+		<USP_PER_Id>10</USP_PER_Id>
+	</ADM_UsuarioPerfil>
+
+	<ADM_UsuarioPerfil>
+		<USP_USU_Id>2</USP_USU_Id>
+		<USP_PER_Id>20</USP_PER_Id>
+	</ADM_UsuarioPerfil>
+	
+	<ADM_Sistema>
+		<SIS_Id>100</SIS_Id>>
+		<SIS_Nome>Sistema de Teste-1</SIS_Nome>
+		<SIS_Link></SIS_Link>
+	</ADM_Sistema>
+
+	<ADM_Sistema>
+		<SIS_Id>200</SIS_Id>>
+		<SIS_Nome>Sistema de Teste-2</SIS_Nome>
+		<SIS_Link></SIS_Link>
+	</ADM_Sistema>
+
+	<ADM_Entidade>
+		<ENT_Id>1</ENT_Id>
+		<ENT_Nome>Caio Silva</ENT_Nome>
+		<ENT_Responsavel>1</ENT_Responsavel>
+		<ENT_TerminalPrefixo>1</ENT_TerminalPrefixo>
+	</ADM_Entidade>
+
+	<ADM_Entidade>
+		<ENT_Id>2</ENT_Id>
+		<ENT_Nome>Tiago Silva</ENT_Nome>
+		<ENT_Responsavel>2</ENT_Responsavel>
+		<ENT_TerminalPrefixo>0</ENT_TerminalPrefixo>
+	</ADM_Entidade>
+</Integracao>
