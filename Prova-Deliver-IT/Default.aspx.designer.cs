@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Prova
+namespace Prova_Deliver_IT
 {
 
 
@@ -15,21 +15,21 @@ namespace Prova
     {
 
         /// <summary>
-        /// Usuario control.
+        /// Usuarios control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Usuario;
+        protected global::System.Web.UI.WebControls.GridView Usuarios;
 
         /// <summary>
-        /// Entidade control.
+        /// Entidades control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView Entidade;
+        protected global::System.Web.UI.WebControls.GridView Entidades;
     }
 }
