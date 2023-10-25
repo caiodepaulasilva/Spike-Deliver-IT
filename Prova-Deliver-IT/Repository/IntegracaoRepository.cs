@@ -30,7 +30,7 @@ namespace Prova_Deliver_IT.Repository
             using (var connection = new SqlConnection(connectionString))
             {
                 return await connection.QueryFirstOrDefaultAsync(
-                    @"SELECT 
+                    @"SELECT *
                     FROM ADM_Usuario
                     JOIN ADM_Entidade ON ADM_Usuario.USU_ENT_Id = ADM_Entidade.ENT_id
                     JOIN ADM_UsuarioXPerfil ON ADM_Usuario.USU_Id = ADM_UsuarioXPerfil.USP_USU_Id
