@@ -5,8 +5,11 @@ using Prova_Deliver_IT.Repository;
 using System;
 using System.Collections.Generic;
 using System.Data;
+using System.Drawing;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web.UI;
+using System.Web.UI.WebControls;
 
 namespace Prova_Deliver_IT
 {
@@ -16,7 +19,7 @@ namespace Prova_Deliver_IT
         private readonly IntegracaoRepository _integracaoRepository = new IntegracaoRepository();
 
         protected void Page_Load(object sender, EventArgs e)
-        {            
+        {
             try
             {
                 DataSet dataSet = new DataSet();
@@ -38,8 +41,8 @@ namespace Prova_Deliver_IT
                 //TODO: Incluir método de insert-entities-to-repository
 
                 //TODO: Quando a lógica de inserção no banco estiver funcionando será possível fazer a extração do usuário pelo método GetUsersWithDependencies(users);
-                
-                //De outra forma, os dados serão exibidos no GridView exatamente como foram extraídos do XML.
+
+                //De outra forma, os dados serão exibidos no GridView exatamente como foram extraídos do XML.                
 
                 Usuarios.DataSource = users;
                 Entidades.DataSource = entities;
