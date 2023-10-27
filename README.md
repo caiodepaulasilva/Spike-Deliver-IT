@@ -11,8 +11,8 @@
 
 ## Introdução
 
-Este projeto foi constrúido como parte de um processo seletivo no qual o objetivo é construir um projeto de desenvolvimento web em que algumas habilidades possam ser exercitadas. E esão elas:
-- Domínio da linguagém *SQL* (construção de queries einterpretação de diagramas)
+Este trabalho foi desenvolvido como parte de um processo seletivo no qual o objetivo é construir um projeto de desenvolvimento web em que algumas habilidades possam ser exercitadas. E são elas:
+- Domínio da linguagém *SQL* (construção de queries e interpretação de diagramas)
 - Domínio dos conceitos de **POO**, **Domínio** e estruturação de dados
 - Domínio da estrutura de arquivos do tipo .XML (estruturação, importação e conversão de dados)
 - Domínio da capacidade analitica, de abstração e de construção de um algoritmo que reflita as boas práticas de programção e o uso razoável da linguagém C# para construção de WebForms
